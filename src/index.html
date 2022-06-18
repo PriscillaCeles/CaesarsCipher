@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;600&family=MuseoModerno:wght@300&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="reset.css">
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="./index.js" defer></script>
+
+  <title>HTC | Caesar's challenge</title>
+</head>
+
+<body>
+  <section class="form-container">
+    <h1 class="title">Caesar's Cipher Challenge</h1>
+    <form class="form">
+      <div class="wrap">
+        <label class="form__label" for="msg">Message:</label>
+        <input class="form__input " id="msg" placeholder="Type a message" type="text">
+        <label class="form__label" for="key-number">N° Cipher:</label>
+        <input class="form__input" id="key-umber" placeholder="Type a number" type="number">
+        <div class="form__buttons">
+          <button class="form__button encrypt-button">Encrypt</button>
+          <button class="form__button decrypt-button">Decrypt</button>
+        </div>
+      </div>
+      <p class="form__text"></p>
+    </form>
+  </section>
+</body>
+</html>
